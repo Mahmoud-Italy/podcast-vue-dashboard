@@ -52,6 +52,14 @@
                             </router-link>
                         </li>
 
+                        <li class="u-sidebar-nav-menu__item">
+                            <router-link :to="{ name: 'new' }" class="u-sidebar-nav-menu__link"
+                                :class="(this.$route.path == '/new') ? 'active' : '' ">
+                                <span class="ti-layout-grid2 u-sidebar-nav-menu__item-icon"></span>
+                                <span class="u-sidebar-nav-menu__item-title">New</span>
+                            </router-link>
+                        </li>
+
                         
 
                         <li class="u-sidebar-nav-menu__item"></li>
